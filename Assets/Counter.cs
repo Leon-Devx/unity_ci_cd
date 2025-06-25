@@ -11,7 +11,7 @@ public class Counter : MonoBehaviour
 
     public void IncreaseCount()
     {
-        _count++;
+        _count+=2;
         _text.text = _count.ToString();
     }
 }
